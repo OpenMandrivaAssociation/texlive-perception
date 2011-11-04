@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /biblio/bibtex/contrib/perception
+# catalog-date 2007-02-24 15:09:57 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-perception
 Version:	20070224
 Release:	1
@@ -35,6 +41,7 @@ A product of custom-bib, provided simply to save others' time.
 %files
 %{_texmfdistdir}/bibtex/bst/perception/perception.bst
 %doc %{_texmfdistdir}/doc/latex/perception/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -45,3 +52,5 @@ A product of custom-bib, provided simply to save others' time.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
