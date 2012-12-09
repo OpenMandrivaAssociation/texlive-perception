@@ -43,3 +43,17 @@ A product of custom-bib, provided simply to save others' time.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070224-2
++ Revision: 754808
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070224-1
++ Revision: 719233
+- texlive-perception
+- texlive-perception
+- texlive-perception
+- texlive-perception
+
