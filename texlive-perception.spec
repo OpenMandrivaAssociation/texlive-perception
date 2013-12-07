@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-perception
 Version:	20070224
-Release:	3
+Release:	4
 Summary:	BibTeX style for the journal Perception
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/perception
