@@ -1,6 +1,6 @@
 Name:		texlive-perception
-Version:	20180303
-Release:	2
+Version:	20181009
+Release:	1
 Summary:	BibTeX style for the journal Perception
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/perception
