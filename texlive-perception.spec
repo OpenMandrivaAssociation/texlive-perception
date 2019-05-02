@@ -1,5 +1,5 @@
 Name:		texlive-perception
-Version:	20181009
+Version:	20190228
 Release:	1
 Summary:	BibTeX style for the journal Perception
 Group:		Publishing
