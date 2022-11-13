@@ -1,12 +1,12 @@
 Name:		texlive-perception
-Version:	20190228
+Version:	48861
 Release:	1
 Summary:	BibTeX style for the journal Perception
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/perception
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/perception.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/perception.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/perception.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/perception.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -16,12 +16,12 @@ Requires(post):	texlive-kpathsea
 A product of custom-bib, provided simply to save others' time.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -30,7 +30,7 @@ A product of custom-bib, provided simply to save others' time.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
