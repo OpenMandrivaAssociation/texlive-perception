@@ -3,7 +3,7 @@ Version:	48861
 Release:	2
 Summary:	BibTeX style for the journal Perception
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/biblio/bibtex/contrib/perception
+URL:		https://www.ctan.org/tex-archive/biblio/bibtex/contrib/perception
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/perception.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/perception.doc.r%{version}.tar.xz
